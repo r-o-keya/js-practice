@@ -12,3 +12,11 @@ Each project focuses on different JavaScript concepts such as DOM manipulation, 
 - Event listeners
 - Functions and logic in JavaScript
 - CSS styling and transitions
+
+## Projects
+
+### 1. [Background Color Changer](background-color-changer)
+- Change background color by clicking buttons
+- Highlights the clicked button
+- Smooth transitions
+
