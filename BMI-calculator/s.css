@@ -1,0 +1,86 @@
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #F4EBD3; /* soft cream */
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #555879;
+  margin: 0;
+}
+
+.container {
+  text-align: center;
+  background: #DED3C4; /* light beige */
+  padding: 30px 40px;
+  border-radius: 20px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+  width: 320px;
+}
+
+h1 {
+  color: #555879;
+  margin-bottom: 25px;
+  letter-spacing: 1px;
+}
+
+.bmi-box {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+label {
+  font-weight: 500;
+  color: #555879;
+}
+
+input {
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  outline: none;
+  text-align: center;
+  background-color: #F4EBD3;
+  color: #555879;
+  font-weight: bold;
+}
+
+input::placeholder {
+  color: #98A1BC;
+  font-style: italic;
+}
+
+button {
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  background-color: #555879;
+  color: #F4EBD3;
+  cursor: pointer;
+  font-weight: bold;
+  transition: 0.3s;
+  letter-spacing: 0.5px;
+}
+
+button:hover {
+  background-color: #98A1BC;
+  color: #555879;
+}
+
+.result {
+  margin-top: 20px;
+}
+
+#bmi-value {
+  font-size: 1.5em;
+  font-weight: bold;
+  color: #555879;
+}
+
+#bmi-category {
+  font-size: 1.2em;
+  font-weight: bold;
+  margin-top: 5px;
+  transition: color 0.3s ease;
+}
