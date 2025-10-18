@@ -20,3 +20,7 @@ Each project focuses on different JavaScript concepts such as DOM manipulation, 
 - Highlights the clicked button
 - Smooth transitions
 
+### 2. [BMI Calculator](bmi-calculator)
+- Calculates BMI based on height and weight
+- Displays BMI value and health category instantly
+- Handles invalid or empty inputs gracefully
